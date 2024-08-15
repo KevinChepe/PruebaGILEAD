@@ -1,0 +1,157 @@
+{
+  "kind": "collectionType",
+  "collectionName": "info_encuestas",
+  "info": {
+    "singularName": "info-encuesta",
+    "pluralName": "info-encuestas",
+    "displayName": "InfoEncuesta",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Cambio_salud_anio": {
+      "type": "string",
+      "required": true
+    },
+    "Intensidad_dolor_actividades": {
+      "type": "string",
+      "required": true
+    },
+    "Interferencia_dolor_actividades": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_actividad_fisica": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_trabajo_domesticas": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_caminar_escaleras": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_agacharse_recoger_objetos": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_vestirse": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_comer": {
+      "type": "string",
+      "required": true
+    },
+    "Dependencia_ayuda_diarias": {
+      "type": "string",
+      "required": true
+    },
+    "Intensidad_dolor": {
+      "type": "string",
+      "required": true
+    },
+    "Impacto_dolor_actividades_habituales": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_estado_salud": {
+      "type": "string",
+      "unique": false,
+      "required": true
+    },
+    "Estado_salud_ultimos_meses": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_estado_salud_ultimo_12_mes": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_estado_salud_ultimos_5_anios": {
+      "type": "string",
+      "required": true
+    },
+    "Percepcion_salud_actual": {
+      "type": "string",
+      "required": true
+    },
+    "Cambio_salud_ultimo_anio": {
+      "type": "string",
+      "required": true
+    },
+    "Sentimiento_energia": {
+      "type": "string",
+      "required": true
+    },
+    "Sentimiento_cansancio": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_actividades_falta_energia": {
+      "type": "string"
+    },
+    "Interferencia_cansancio_actividades": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_realizar_actividades_sociales": {
+      "type": "string",
+      "required": true
+    },
+    "Sentimiento_verguenza_situaciones_sociales": {
+      "type": "string",
+      "required": true
+    },
+    "Limitacion_trabajo_estudios": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_realizar_tareas": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_cuidar_casa": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_cuidar_otras_personas": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_mantener_estado_animo": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_actividades_sentirse_triste_deprimido": {
+      "type": "string",
+      "required": true
+    },
+    "Sentimiento_bienestar_emocional": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_concentrarse_mantener_atencion": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_tomar_decisiones": {
+      "type": "string",
+      "required": true
+    },
+    "Dificultad_dormir": {
+      "type": "string",
+      "required": true
+    },
+    "Identificacion": {
+      "type": "biginteger",
+      "required": true,
+      "unique": true
+    }
+  }
+}

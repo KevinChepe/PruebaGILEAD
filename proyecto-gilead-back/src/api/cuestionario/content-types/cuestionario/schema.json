@@ -1,0 +1,107 @@
+{
+  "kind": "collectionType",
+  "collectionName": "cuestionarios",
+  "info": {
+    "singularName": "cuestionario",
+    "pluralName": "cuestionarios",
+    "displayName": "InfoSociodemografica",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Primer_nombre": {
+      "type": "string",
+      "required": true
+    },
+    "Segundo_nombre": {
+      "type": "string"
+    },
+    "Primer_apellido": {
+      "type": "string",
+      "required": true
+    },
+    "Segundo_apellido": {
+      "type": "string"
+    },
+    "Edad": {
+      "type": "integer",
+      "required": true
+    },
+    "Sexo": {
+      "type": "string",
+      "required": true
+    },
+    "Genero": {
+      "type": "string",
+      "required": true
+    },
+    "Nivel_educativo": {
+      "type": "string",
+      "required": true
+    },
+    "Estado_civil": {
+      "type": "string",
+      "required": true
+    },
+    "Ocupacion": {
+      "type": "string",
+      "required": true
+    },
+    "Religion": {
+      "type": "string",
+      "required": true
+    },
+    "Estrato_socioeconomico": {
+      "type": "string",
+      "required": true
+    },
+    "Ocupacion_actual": {
+      "type": "string",
+      "required": true
+    },
+    "Raza_etnia": {
+      "type": "string",
+      "required": true
+    },
+    "Tiempo_diagnostico": {
+      "type": "string",
+      "required": true
+    },
+    "Tratamiento_antirretroviral": {
+      "type": "string",
+      "required": true
+    },
+    "Identificacion": {
+      "type": "biginteger",
+      "unique": true,
+      "required": true
+    },
+    "Pais": {
+      "type": "string",
+      "required": true
+    },
+    "TipoDocumeto": {
+      "type": "string",
+      "required": true
+    },
+    "Email": {
+      "type": "string",
+      "required": true
+    },
+    "TelefonoPrefijo": {
+      "type": "string",
+      "required": true
+    },
+    "PhoneWhatsapp": {
+      "type": "biginteger",
+      "required": true
+    },
+    "codeDocumentoFirma": {
+      "type": "text",
+      "required": true
+    }
+  }
+}
